@@ -17,7 +17,7 @@
                         StatusLabel.Text = "Upload status: File uploaded!";
                     }
                     else
-                        StatusLabel.Text = "Upload status: The file must be less than 100 kb!";
+                        StatusLabel.Text = "Upload status: The file has to be less than 100 kb!";
                 }
                 else
                     StatusLabel.Text = "Upload status: Only JPEG files are accepted!";
